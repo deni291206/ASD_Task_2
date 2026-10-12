@@ -57,6 +57,7 @@ void insertLast(List &L, address P) {
         while (Q -> next != nullptr){
             Q = Q -> next;
         }
+        Q -> next = P;
     }
 }
 
